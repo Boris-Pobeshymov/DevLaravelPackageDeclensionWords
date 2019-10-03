@@ -1,0 +1,20 @@
+{
+    "name": "ztbpb/declension-words",
+    "description": "A package for declension words on russian and english languages",
+    "type": "[]",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "BorisPobeshymov",
+            "email": "boris.pobeshymov@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ztbpb\\DeclensionWords\\": ""
+        }
+    }
+}
