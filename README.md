@@ -9,7 +9,7 @@ composer require ztbpb/declension-words
 <h4>Russian</h4>
 <pre>
     $num = 12;
-    echo ztbpb\DeclensionWords\DeclensionWordsClass::ru($num, 'товар', 'товара', 'товаров') . PHP_EOL;
+    echo "$num " . ztbpb\DeclensionWords\DeclensionWordsClass::ru($num, 'товар', 'товара', 'товаров') . PHP_EOL;
 </pre>
 
 <h5>Results</h5>
@@ -20,7 +20,7 @@ composer require ztbpb/declension-words
 <h4>English</h4>
 <pre>
     $num = 12;
-    echo ztbpb\DeclensionWords\DeclensionWordsClass::en($num, 'item', 'items') . PHP_EOL;
+    echo "$num " . ztbpb\DeclensionWords\DeclensionWordsClass::en($num, 'item', 'items') . PHP_EOL;
 </pre>
 
 <h5>Results</h5>
